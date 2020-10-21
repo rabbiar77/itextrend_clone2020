@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<!--
+Template Name: IT EXTREND
+Author: <a href="https://www.itextrend.com/">IE Templates</a>
+Author URI: https://www.facebook.com/rabbiar2018
+Copyright: itextrend.com
+Licence: Free to use but don't remove 'Designed by Fazle Rabbi' from website footar section.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Template</title>
+
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!------------------- Top Menu Section -------------------->
+    <!------------------- Top Menu Section -------------------->
+    <!------------------- Top Menu Section -------------------->
+    <div class="container_full top_menu_bg">
+        <div class="fix_container">
+            <div class="top_menu_part">
+                <div class="top_menu_info">
+                    <div class="call_info">
+                        <div class="flt_right">
+                            <img src="image/icon/phone_call_icon.png" alt="">
+                            <p>+1 (930) 458 1765</p>
+                        </div>
+                    </div>
+                    <div class="email_info">
+                        <img src="image/icon/email_icon.png" alt="">
+                        <p>INFO@DOMAIN.COM</p>
+                    </div>
+                </div>
+                <div class="top_menu">
+                    <ul>
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">RSS Feeds</a></li>
+                        <li><a href="#">Archived News</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Nav Menu Section -------------------->
+    <!------------------- Nav Menu Section -------------------->
+    <!------------------- Nav Menu Section -------------------->
+    <div class="container_full nav_menu_bg">
+        <div class="fix_container">
+            <div class="nav_menu">
+                <div class="logo_wrapper">
+                    <div class="site_logo">
+                        <a href="#"><img src="image/site_logo/Logo Subtitle_Final02.png" alt=""></a>
+                        <h3>In search of a new horizon</h3>
+                    </div>
+                </div>
+                <div class="nav_menu_wrapper">
+                    <div class="main_menu">
+                        <ul id="res_menu">
+                            <li><a href="#">HOMEPAGE</a></li>
+                            <li><a href="#">STYLE DEMO</a></li>
+                            <li><a href="#">FULL WIDTH</a></li>
+                            <li><a href="#">PORTFOLIO</a></li>
+                            <li><a href="#">GALLERY</a></li>
+                            <li><a href="#">DROPDOWN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Slider Section -------------------->
+    <!------------------- Slider Section -------------------->
+    <!------------------- Slider Section -------------------->
+    <div class="container_full slider_bg">
+        <div class="fix_container">
+            <div class="slider">
+                <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+                <script type="text/javascript">
+                    window.jssor_1_slider_init = function() {
+
+                        var jssor_1_SlideoTransitions = [
+                        [{b:-1,d:1,ls:0.5},{b:0,d:1000,y:5,e:{y:6}}],
+                        [{b:-1,d:1,ls:0.5},{b:200,d:1000,y:25,e:{y:6}}],
+                        [{b:-1,d:1,ls:0.5},{b:400,d:1000,y:45,e:{y:6}}],
+                        [{b:-1,d:1,ls:0.5},{b:600,d:1000,y:65,e:{y:6}}],
+                        [{b:-1,d:1,ls:0.5},{b:800,d:1000,y:85,e:{y:6}}],
+                        [{b:-1,d:1,ls:0.5},{b:500,d:1000,y:195,e:{y:6}}],
+                        [{b:0,d:2000,y:30,e:{y:3}}],
+                        [{b:-1,d:1,rY:-15,tZ:100},{b:0,d:1500,y:30,o:1,e:{y:3}}],
+                        [{b:-1,d:1,rY:-15,tZ:-100},{b:0,d:1500,y:100,o:0.8,e:{y:3}}],
+                        [{b:500,d:1500,o:1}],
+                        [{b:0,d:1000,y:380,e:{y:6}}],
+                        [{b:300,d:1000,x:80,e:{x:6}}],
+                        [{b:300,d:1000,x:330,e:{x:6}}],
+                        [{b:-1,d:1,r:-110,sX:5,sY:5},{b:0,d:2000,o:1,r:-20,sX:1,sY:1,e:{o:6,r:6,sX:6,sY:6}}],
+                        [{b:0,d:600,x:150,o:0.5,e:{x:6}}],
+                        [{b:0,d:600,x:1140,o:0.6,e:{x:6}}],
+                        [{b:-1,d:1,sX:5,sY:5},{b:600,d:600,o:1,sX:1,sY:1,e:{sX:3,sY:3}}]
+                        ];
+
+                        var jssor_1_options = {
+                        $AutoPlay: 1,
+                        $LazyLoading: 1,
+                        $CaptionSliderOptions: {
+                            $Class: $JssorCaptionSlideo$,
+                            $Transitions: jssor_1_SlideoTransitions
+                        },
+                        $ArrowNavigatorOptions: {
+                            $Class: $JssorArrowNavigator$
+                        },
+                        $BulletNavigatorOptions: {
+                            $Class: $JssorBulletNavigator$,
+                            $SpacingX: 20,
+                            $SpacingY: 20
+                        }
+                        };
+
+                        var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                        /*#region responsive code begin*/
+
+                        var MAX_WIDTH = 3000;
+
+                        function ScaleSlider() {
+                            var containerElement = jssor_1_slider.$Elmt.parentNode;
+                            var containerWidth = containerElement.clientWidth;
+
+                            if (containerWidth) {
+
+                                var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                                jssor_1_slider.$ScaleWidth(expectedWidth);
+                            }
+                            else {
+                                window.setTimeout(ScaleSlider, 30);
+                            }
+                        }
+
+                        ScaleSlider();
+
+                        $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                        $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                        $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                        /*#endregion responsive code end*/
+                    };
+                </script>
+                <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1600px;height:560px;overflow:hidden;visibility:hidden;">
+                    <!-- Loading Screen -->
+                    <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                        <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="image/slider img/spin.svg" />
+                    </div>
+                    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1600px;height:560px;overflow:hidden;">
+
+                        <!--------------------------------- Slider Images----------------------------------->
+                        <!--------------------------------- Slider Images----------------------------------->
+                        <!--------------------------------- Slider Images----------------------------------->
+                        <div><img data-u="image" style="opacity:0.8;" data-src="image/slider img/image01.jpg" /></div>
+
+                        <div>
+                            <img data-u="image" data-src="image/slider img/image02.jpg" />
+                            <div data-ts="flat" data-p="540" data-po="40% 50%" style="left:0px;top:0px;width:1600px;height:560px;position:absolute;"></div>
+                        </div>
+
+                        <div style="background-color:#000000;">
+                            <img data-u="image" style="opacity:0.8;" data-src="image/slider img/image03.jpg" />
+                        </div>
+
+                        <div>
+                            <img data-u="image" data-src="image/slider img/image04.jpg" />
+                            <div data-ts="flat" data-p="1080" style="left:0px;top:0px;width:1600px;height:560px;position:absolute;"></div>
+                        </div>
+
+                        <div><img data-u="image" data-src="image/slider img/image05.jpg" /></div>
+
+                    </div><a data-scale="0" href="#" style="display:none;position:absolute;">slider html</a>
+                    <!-- Bullet Navigator -->
+                    <div data-u="navigator" class="jssorb132" style="position:absolute;bottom:24px;right:16px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                        <div data-u="prototype" class="i" style="width:12px;height:12px;">
+                            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                            </svg>
+                        </div>
+                    </div>
+                    <!-- Arrow Navigator -->
+                    <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                            <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                        </svg>
+                    </div>
+                    <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                            <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                        </svg>
+                    </div>
+                </div>
+                <script type="text/javascript">jssor_1_slider_init();
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Service Section -------------------->
+    <!------------------- Service Section -------------------->
+    <!------------------- Service Section -------------------->
+    <div class="container_full service_bg">
+        <div class="fix_container">
+            <div class="service_head">
+                <h1>SERVICE</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aliquam voluptate ullam corporis. Repellendus minus vel voluptas architecto, quibusdam corrupti ullam veritatis cumque aut necessitatibus nesciunt molestias dolorum culpa</p>
+            </div>
+            <ul class="service_part">
+                <li>
+                    <img src="image/icon/icon09.png" alt="">
+                    <h2>Discovery</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laboriosam obcaecati ex ab ipsa earum molestias</p>
+                </li>
+                <li>
+                    <img src="image/icon/icon10.png" alt="">
+                    <h2>Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laboriosam obcaecati ex ab ipsa earum molestias</p>
+                </li>
+                <li>
+                    <img src="image/icon/icon11.png" alt="">
+                    <h2>Development</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta laboriosam obcaecati ex ab ipsa earum molestias</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!------------------- Content_01 Section -------------------->
+    <!------------------- Content_01 Section -------------------->
+    <!------------------- Content_01 Section -------------------->
+    <div class="container_full content01_bg">
+        <div class="fix_container">
+            <div class="content_01_section">
+                <div class="quarter_head">
+                    <h1>NEC TINCIDUNT ALIQUET</h1>
+                    <p>Ipsum mi ultrices magna eu tempor quam dolor.</p>
+                </div>
+                <ul class="content_quarter">
+                    <li class="first_quarter">
+                        <img src="image/icon/icon05.png" alt="">
+                        <h3>MAECENAS</h3>
+                        <p>Felis quam eget dictum suscipit vivamus et nec metus maecenas</p>
+                    </li>
+                    <li class="second_quarter">
+                        <img src="image/icon/icon06.png" alt="">
+                        <h3>DIGNISSIM</h3>
+                        <p>Felis quam eget dictum suscipit vivamus et nec metus maecenas</p>
+                    </li>
+                    <li class="third_quarter">
+                        <img src="image/icon/icon07.png" alt="">
+                        <h3>VESTIBULUM</h3>
+                        <p>Felis quam eget dictum suscipit vivamus et nec metus maecenas</p>
+                    </li>
+                    <li class="fourth_quarter">
+                        <img src="image/icon/icon08.png" alt="">
+                        <h3>BIBENDUM</h3>
+                        <p>Felis quam eget dictum suscipit vivamus et nec metus maecenas</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Simple_text Section -------------------->
+    <!------------------- Simple_text Section -------------------->
+    <!------------------- Simple_text Section -------------------->
+    <div class="container_full symtxt_bg">
+        <div class="fix_container">
+            <div class="simple_text">
+                <h2>Nibhnullam libero portis vivamus justo porta cursus arcu quisque sceleifendiment praesentum. Leosodalesuada quis nequat commodo enim curabitur cursus vest eu sodalesuada feugiat.</h2>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Content_02 Section -------------------->
+    <!------------------- Content_02 Section -------------------->
+    <!------------------- Content_02 Section -------------------->
+    <div class="container_full content02_bg">
+        <div class="fix_container">
+            <div class="content_02_section">
+                <div class="content_02_head">
+                    <h1>CONTENT MANAGEMENT</h1>
+                </div>
+                <div class="content_02">
+                    <section class="part_1">
+                        <img src="image/icon/icon01.png" alt="image_part_1_2_3_4">
+                        <h3>Vivamuslibero Auguer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, sed!</p>
+                    </section>
+                    <section class="part_2">
+                        <img src="image/icon/icon02.png" alt="image_part_1_2_3_4">
+                        <h3>Vivamuslibero Auguer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, tenetur?</p>
+                    </section>
+                    <section class="part_3">
+                        <img src="image/icon/icon03.png" alt="image_part_1_2_3_4">
+                        <h3>Vivamuslibero Auguer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, ut.</p>
+                    </section>
+                    <section class="part_4">
+                        <img src="image/icon/icon4.png" alt="image_part_1_2_3_4">
+                        <h3>Vivamuslibero Auguer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non diam erat. In fringilla massa ut nisi ullamcorper pellentesque. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Display Section -------------------->
+    <!------------------- Display Section -------------------->
+    <!------------------- Display Section -------------------->
+    <div class="container_full display_section_bg">
+        <div class="fix_container">
+            <div class="display_section">
+                <div class="left_image">
+                    <img class="img_monitar" src="image/demo_image/monitar.png" alt="monitar">
+                </div>
+                <div class="right_content">
+                    <h1>A CATCHY TITLE</h1>
+                    <p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur consequam intesque. Curabiturpisametur in ante.</p>
+                    <div class="btn01">
+                        <a href="#">READ MORE &raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Author Section -------------------->
+    <!------------------- Author Section -------------------->
+    <!------------------- Author Section -------------------->
+    <div class="container_full author_bg">
+        <div class="fix_container">
+            <div class="author_content">
+                <div class="author_head">
+                    <h1>Nunc Lobortis Non</h1>
+                    <p>Tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <ul class="author_box">
+                    <li>
+                        <img src="image/icon/blockquote.png" alt="">
+                        <blockquote>Ligula a commodo fusce sed aliquam dolor suspendisse eleifend dignissim mi quis malesuada sed a commodo sem nulla consequat erat at risus fringilla ac accumsan odio tempor proin viverra eros non elit
+                        </blockquote>
+                        <p>John Doe / CEO</p>
+                    </li>
+                    <li>
+                        <img src="image/icon/blockquote.png" alt="">
+                        <blockquote>Ligula a commodo fusce sed aliquam dolor suspendisse eleifend dignissim mi quis malesuada sed a commodo sem nulla consequat erat at risus fringilla ac accumsan odio tempor proin viverra eros non elit
+                        </blockquote>
+                        <p>John Doe / CEO</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Content_03 Section -------------------->
+    <!------------------- Content_03 Section -------------------->
+    <!------------------- Content_03 Section -------------------->
+    <div class="container_full content03_bg">
+        <div class="fix_container">
+            <div class="content_03_section">
+                <div class="content03_wrap">
+                    <div class="content03_head">
+                        <h1>BLOG POST</h1>
+                    </div>
+                    <section class="content_1">
+                        <h2>Indonectetus facilis</h2>
+                        <img src="image/content_image/image01.jpg" alt="">
+                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus facilis fuga veniam omnis atque nostrum deleniti repellendus, aliquam nulla. Optio.</p>
+                        <div class="btn02">
+                            <a href="#">Read More »</a>
+                        </div>
+                    </section>
+                    <section class="content_2">
+                        <h2>Indonectetus facilis</h2>
+                        <img src="image/content_image/image02.jpg" alt="">
+                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus facilis fuga veniam omnis atque nostrum deleniti repellendus, aliquam nulla. Optio.</p>
+                        <div class="btn02">
+                            <a href="#">Read More »</a>
+                        </div>
+                    </section>
+                    <section class="content_3">
+                        <h2>Indonectetus facilis</h2>
+                        <img src="image/content_image/image03.jpg" alt="">
+                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus facilis fuga veniam omnis atque nostrum deleniti repellendus, aliquam nulla. Optio.</p>
+                        <div class="btn02">
+                            <a href="#">Read More »</a>
+                        </div>
+                    </section>
+                    <section class="content_4">
+                        <h2>Indonectetus facilis</h2>
+                        <img src="image/content_image/image04.jpg" alt="">
+                        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus facilis fuga veniam omnis atque nostrum deleniti repellendus, aliquam nulla. Optio.</p>
+                        <div class="btn02">
+                            <a href="#">Read More »</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Address Section -------------------->
+    <!------------------- Address Section -------------------->
+    <!------------------- Address Section -------------------->
+    <div class="container_full address_bg">
+        <div class="fix_container">
+            <div class="address_info">
+                <div class="address_head">
+                    <h1>Interdum Pulvinar Aliquam</h1>
+                    <p>in urna proin luctus ligula eget mauris quisque congue malesuada</p>
+                </div>
+                <div class="address_box">
+                    <ul>
+                        <li>
+                            <img src="image/icon/icon12.png" alt="">
+                            <h4>Give Us A Call:</h4>
+                            <p>+00 (123) 456 7890</p>
+                        </li>
+                        <li>
+                            <img src="image/icon/icon13.png" alt="">
+                            <h4>Send Us A Mail:</h4>
+                            <p>support@domain.com</p>
+                        </li>
+                        <li>
+                            <img src="image/icon/icon14.png" alt="">
+                            <h4>Come Visit Us:</h4>
+                            <p>Directions to <a href="#">our location</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Footar Section-01 -------------------->
+    <!------------------- Footar Section-01 -------------------->
+    <!------------------- Footar Section-01 -------------------->
+    <div class="container_full fp01_bg">
+        <div class="fix_container">
+            <div class="footer_section_01">
+                <div class="footer01_wrap">
+                    <section class="Latest_From_Blog">
+                        <h2>Latest From Blog</h2>
+                        <h3>Post Title</h3>
+                        <h5>Friday, 6th April 2000</h5>
+                        <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla.</p>
+                    </section>
+                    <section class="Link_Block">
+                        <h2>Link Block</h2>
+                        <ul class="list01">
+                            <li><a href="#">Lorem ipsum dolor</a></li>
+                            <li><a href="#">Suspendisse in neque</a></li>
+                            <li><a href="#">Praesent et eros</a></li>
+                            <li><a href="#">Suspendisse in neque</a></li>
+                            <li><a href="#">Praesent et eros</a></li>
+                            <li><a href="#">Suspendisse in neque</a></li>
+                        </ul>
+                    </section>
+                    <section class="Company_Details">
+                        <h2>Company Details</h2>
+                        <p>
+                            Company Name <br>
+                            Street Name & Number <br>
+                            Line Two <br>
+                            Town <br>
+                            Postcode/Zip
+                        </p><br>
+                        <p>
+                            Tel: xxxxx xxxxxxxxxx <br>
+                            Fax: xxxxx xxxxxxxxxx <br>
+                            Email: <span class="email_adrs">contact@mydomain.com</span>
+                        </p>
+                    </section>
+                    <section class="Newsletter">
+                        <h2>Newsletter</h2>
+                        <form action="">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="submit" value="Submit">
+                        </form>
+                        <div class="social_icon">
+                            <a href="#"><img src="image/social_icon/01_facebook_icon.png" alt=""></a>
+                            <a href="#"><img src="image/social_icon/02_instagram_icon.png" alt=""></a>
+                            <a href="#"><img src="image/social_icon/03_twittar_icon.png" alt=""></a>
+                            <a href="#"><img src="image/social_icon/04_pinterest_icon.png" alt=""></a>
+                            <a href="#"><img src="image/social_icon/05_google plus_icon.png" alt=""></a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Footar Section-02 -------------------->
+    <!------------------- Footar Section-02 -------------------->
+    <!------------------- Footar Section-02 -------------------->
+    <div class="container_full fp02_bg">
+        <div class="fix_container">
+            <div class="footer_section_02 design_fr">
+                <div class="copyright">
+                    <h4>Copyright &copy; 2020 It Extrend - All Rights Reserved</h4>
+                </div>
+                <div class="footer_side_text">
+                    <h4 dir="rtl">Designed by <a href="https://www.itextrend.com">Fazle Rabbi</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Responsive Menu -------------------->
+    <!------------------- Responsive Menu -------------------->
+    <!------------------- Responsive Menu -------------------->
+    <script src="js/responsive-menu.js"></script>
+    <script>
+    domready(function(){
+                selectnav('res_menu', {
+            label: 'Click to Select Menu'
+        });
+        prettyPrint()
+            })
+    </script>
+</body>
+</html>
