@@ -38,6 +38,9 @@ img{
 .call_info{
     width: 45%;
 }
+.call_info img {
+    margin: 0 8px 0px 10px;
+}
 .flt_right {
     float: right;
     width: 132px;
@@ -244,7 +247,7 @@ img{
     margin-left: 55%;
 }
 .content_03_section{
-    height: 1975px;
+    height: 2000px;
 }
 .content_03_section h2{
     font-size: 18px;
