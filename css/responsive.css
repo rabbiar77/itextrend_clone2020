@@ -29,7 +29,7 @@ img{
     display: none;
 }
 .top_menu_part{
-    height: 70px;
+    height: 75px;
 }
 .top_menu_info{
     width: 100%;
@@ -43,7 +43,7 @@ img{
     width: 132px;
 }
 .email_info{
-    width: 50%;
+    width: 55%;
 }
 .top_menu{
     width: 100%;
@@ -105,10 +105,10 @@ img{
     font-size: 25px;
 }
 .service_part li{
-    width: 77%;
+    width: 75%;
 }
 .service_part{
-    height: 615px;
+    height: 700px;
 }
 .service_part h2{
     font-size: 20px;
@@ -226,7 +226,7 @@ img{
     font-size: 12px;
 }
 .author_content{
-    height: 615px;
+    height: 675px;
 }
 .author_head {
     padding: 25px 0 50px 0;
@@ -238,13 +238,13 @@ img{
     width: 90%;
     margin-left: 5%;
     margin-bottom: 25px;
-    height: 200px;
+    height: 225px;
 }
 .author_box p{
     margin-left: 55%;
 }
 .content_03_section{
-    height: 1900px;
+    height: 1975px;
 }
 .content_03_section h2{
     font-size: 18px;
@@ -290,7 +290,7 @@ img{
     width: 100%;
 }
 .address_info{
-    height: 540px;
+    height: 600px;
 }
 .address_head h1{
     font-size: 25px;
@@ -300,12 +300,12 @@ img{
     padding: 25px 0 50px 0;
 }
 .address_box li {
-    width: 82%;
-    margin-left: 9%;
+    width: 90%;
+    margin-left: 5%;
     margin-bottom: 25px;
 }
 .footer_section_01{
-    height: 1300px;
+    height: 1350px;
 }
 .Latest_From_Blog {
     width: 60%;
@@ -335,7 +335,7 @@ input[type="email"]{
     display: block;
 }
 .footer_section_02 {
-    height: 65px;
+    height: 80px;
 }
 .copyright {
     width: 100%;
